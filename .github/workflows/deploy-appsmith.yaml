@@ -6,7 +6,7 @@ on:
       - release  # Trigger on push to release branch
 
 jobs:
-  appsmith-deploy:
+  deploy-appsmith:
     runs-on: ubuntu-latest  # Run on Ubuntu
 
     steps:
